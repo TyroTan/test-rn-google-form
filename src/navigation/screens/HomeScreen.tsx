@@ -1,11 +1,11 @@
 import React from "react";
-import NotesDashboard from "../../components/NotesDashboard";
+import HomeComponent from "../../components/Home";
 import { StyleSheet, View } from "react-native";
 
 const Home = () => {
   return (
     <View style={styles.container}>
-      <NotesDashboard />
+      <HomeComponent />
     </View>
   );
 };
